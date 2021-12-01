@@ -1,0 +1,40 @@
+@import './front/bootstrap.css';
+@import './front/responsive.css';
+
+@import './front/style.css';
+
+.mini-cart-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        height:50px;
+        width: auto;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+
+        svg {
+            height: 35 px;
+            width: 35px;
+            fill: red;
+        }
+
+    }
+}
+
+form.cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

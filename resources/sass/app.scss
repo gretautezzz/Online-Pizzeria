@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
+
+// Variables
+@import 'variables';
+
+@import 'back/index-list';
+@import 'back/pizza-sizes';
+@import 'back/items';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.card-header {
+    background-color: #c34f5a;
+    color: white;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+
+

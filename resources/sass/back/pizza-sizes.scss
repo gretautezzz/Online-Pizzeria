@@ -1,0 +1,22 @@
+.pizza-sizes {
+    display: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 5px;
+    padding: 10px 5px;
+
+
+    &__size {
+        margin: 3px 5px;
+        padding: 3px 5px;
+        font-size: larger;
+        color: #BA0F30;
+    }
+
+    &__buttons {
+
+        align-items: center;
+        justify-content: flex-end;
+    }
+}

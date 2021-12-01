@@ -1,0 +1,57 @@
+.index-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 150px;
+    
+ img {
+        height: 200px;
+        width: auto;
+        margin: 7px;
+        display: block;
+    }
+
+    &__svg {
+        svg {
+            height: 30px;
+            width: 30px;
+            fill: #BA0F30;
+            margin: 0 6px;
+            &.rotate {
+            transform: rotate(180deg);
+            fill: #050A30;
+        }
+        }
+        
+
+        button {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    }
+
+    &__item {
+        color: #c34f5a;
+        font-size: larger;
+    }
+}
+
+ul#arrow-buttons {
+
+
+
+    li:first-child .index-list__svg form:first-child button {
+        display: none;
+    }
+
+    li:last-child .index-list__svg form:last-child button {
+        display: none;
+    }
+}
