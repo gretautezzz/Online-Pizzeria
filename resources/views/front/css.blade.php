@@ -1,0 +1,4 @@
+<style>
+/* kbackground images */
+
+</style>
